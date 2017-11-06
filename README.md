@@ -1,24 +1,61 @@
-Pybasics
-========
+# Introduction to Python Basics Sessions
+---
+
+## Anaconda/Miniconda
+
+Anaconda is python distribution which bundles all the required datascience tools.
+
+> Download Anaconda from [Anaconda Website](https://www.continuum.io/downloads). Use Python 3 version.
+
+Miniconda is smaller version of Anaconda, which contains only required packages to run anaconda.
+
+> Download miniconda from [Miniconda website](http://conda.pydata.org/miniconda.html). Use Python 3 version.
 
 
+### Installation
 
-## WIP
+Linux
 
-Table of Contents
------------------
+    > chmod +x Anaconda3-latest-Linux-x86_64.sh
+    > ./Anaconda3-latest-Linux-x86_64.sh
+    > nano ~/.bashrc
 
-1. Introduction to Git
+Mac
+
+    > chmod +x Anaconda3-latest-MacOSX-x86_64.sh
+    > ./Anaconda3-latest-MacOSX-x86_64.sh
+    > nano ~/.bash_profile
+
+Add line below to .bashrc or .bash_profile or .zshrc file
+
+```sh 
+    export PATH=$PATH:~/anaconda3/bin
+```
+
+Windows
+
+  - Install exe file
+  - update environment variable with installed Anaconda path. [See Instructions](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sysdm_advancd_environmnt_addchange_variable.mspx)
 
 
-*Note:*
+## Github and Git
+---
 
-This repository is splitted from [pysessions](https://github.com/lfapython/pysessions)
+- Download github desktop from [https://desktop.github.com/](https://desktop.github.com/)
 
-see [datascience](https://github.com/lfapython/datascience) for datascience.
+### Windows
 
+- Download git for windows from [https://git-scm.com/download/win](https://git-scm.com/download/win)
 
-### Downloading and loading files in jupyter
+### Linux
+
+- Install **git** from your package manager.
+
+    **Ubuntu**
+        $ sudo apt-get install git
+
+Usage
+=====
 
 **Requires Miniconda/Anaconda to be installed**
 
